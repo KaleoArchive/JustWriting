@@ -1,0 +1,14 @@
+{% extends 'include/base.html' %}
+
+{% block title %}{{ config.title }}{% endblock %}
+
+{% block content %}
+    <div class="articles">
+        {% for post in posts %}
+            <h2>
+                <a href="{{ post.link }}">{{ post.title }}</a>
+                <span>{{ post.date|date('Y m')}}</span>
+            </h2>
+        {% endfor %}
+    </div>
+{% endblock %}

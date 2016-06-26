@@ -1,0 +1,15 @@
+{% extends 'include/base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1>{{ post.title }}</h1>
+            <span> <i class="icon-time"></i>
+                {{ post.date |  date('F d, Y') }}
+            </span>
+        </header>
+        <div class="content">{{ post.html|raw }} </div>
+    </article>
+{% endblock %}

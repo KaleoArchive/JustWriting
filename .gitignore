@@ -8,3 +8,5 @@ cache/*
 !cache/index.html
 
 application/cache
+templates/graceful/css/style.css*
+templates/graceful/css/.sass-cache/*

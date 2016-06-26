@@ -15,7 +15,7 @@ $blog_config['aboutme']='This is about JustWriting';
 $blog_config['avatar']= 'https://raw.githubusercontent.com/hjue/JustWriting/develop/docs/logo.png';
 
 //blog template name.The template root path is /templates.You can set rock or deepure. 
-$blog_config['template'] = 'rock';
+$blog_config['template'] = 'graceful';
 
 //If you would like that everyone comment your post,you must set this variable to True.
 $blog_config['comment'] = True;
@@ -54,7 +54,7 @@ $blog_config['dropbox']['access_token']= '';
 $blog_config['highlight']='default';
 
 //remove comment to support Latex math equations
-/*
+
 $blog_config['mathjax']='<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
 MathJax.Hub.Config({
     tex2jax: {
@@ -63,4 +63,3 @@ MathJax.Hub.Config({
      extensions: ["jsMath2jax.js", "tex2jax.js"],
      messageStyle: "none"
  });</script>';
-*/
