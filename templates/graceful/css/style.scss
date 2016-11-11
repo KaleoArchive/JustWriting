@@ -203,6 +203,19 @@ hr {
                 word-break: break-all;
                 padding-top: 0.75em;
                 padding-bottom: 0.75em;
+              img {
+                max-width:85%;
+                max-height:85%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                //box-shadow: 8px 8px 10px #aaa;
+                border: 10px solid #fff;
+                border-bottom: 25px solid #fff;
+                -webkit-box-shadow: 3px 3px 3px #777;
+                -moz-box-shadow: 3px 3px 3px #777;
+                box-shadow: 3px 3px 3px #777;
+              }
             }
         }
     }
