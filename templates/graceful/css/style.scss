@@ -71,6 +71,7 @@ hr {
     }
     
     #email {
+        //display: none;
         width: 60%;
         text-align: right;
         float: right;
@@ -115,9 +116,9 @@ hr {
             }
             
             span {
+                font-family: monospace;
                 color: $shadow_color;
-                font-size: 1.25em;
-                font-style: italic;
+                font-size: 0.9em;
             }
         }
         
